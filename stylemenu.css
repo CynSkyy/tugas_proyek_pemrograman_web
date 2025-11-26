@@ -1,0 +1,17 @@
+body{
+    background-color: burlywood;
+}
+.menu-list {
+    list-style-position: inside;
+    padding: 0;
+    width: 300px;
+    margin: auto;
+}
+
+.menu-list li {
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 0;
+}
+
+
