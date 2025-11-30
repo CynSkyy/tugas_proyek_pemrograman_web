@@ -1,7 +1,48 @@
 body {
     background-color: #000;   
     color: white;             
-    font-family: sans-serif;  
+    font-family: sans-serif;
+    padding-top: 80px; 
+}
+
+.navbar {
+    width: 100%;
+    padding: 15px 20px;
+    position: fixed;
+    top: 0;
+    left: 0;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    backdrop-filter: blur(8px);
+    background: rgba(0, 0, 0, 0.4);
+    box-sizing: border-box;
+    z-index: 1000;
+}
+
+.logo {
+    font-size: 14px;
+    font-weight: bold;
+    color: white;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 25px;
+}
+
+.nav-links li a {
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.nav-links li a:hover {
+    opacity: 0.7;
 }
 
 .judul {
@@ -9,26 +50,6 @@ body {
     text-decoration: none;
     color: white;
 }
-
-
-.btn-kembali {
-    display: inline-block;
-    margin-left: 20px;
-    padding: 8px 16px;
-    background-color: #222;
-    border: 1px solid white;
-    border-radius: 6px;
-    color: white;
-    text-decoration: none;
-    transition: 0.2s;
-    font-size: 14px;
-}
-
-.btn-kembali:hover {
-    background-color: #444;
-    transform: scale(1.05);
-}
-
 
 .menu-list {
     list-style-position: inside;
